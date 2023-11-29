@@ -13,7 +13,7 @@ def update_progress(encoder):
     return callback
 
 # Helper to build a URI for a given API action
-action = lambda a: 'https://dev-datahub.h2awsm.org/api/3/action/{}'.format(a)
+action = lambda a: f'https://dev-datahub.h2awsm.org/api/3/action/{a}'
 
 # Set your API token
 api_token = '' #TODO
